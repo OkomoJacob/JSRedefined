@@ -1,4 +1,5 @@
 /* Variales */
+// Are case sensitive
 var mayName = "Okomo";
 console.log(mayName);
 
@@ -13,3 +14,6 @@ const a;
 
 // Assigning Variables
 const a = 334;
+
+// Initializing Varibales using Assignment operator
+var a = 9;
