@@ -1,21 +1,21 @@
 ### Contents:
 - [Introduction](#introduction)
-  - [What is WebGIS?](#what-is-webgis)
-- [Web GIS Learning Guide](#web-gis-learning-guide)
+  - [What is Javascript and its Applications?](#what-is-javascript-and-its-applications)
+- [1. Tools and Running JS](#1-tools-and-running-js)
   - [1. Start with GIS and a GIS Software](#1-start-with-gis-and-a-gis-software)
     - [Resources](#resources)
-  - [2. Then Pickup HTML and CSS](#2-then-pickup-html-and-css)
-    - [Resources](#resources-1)
-  - [3. Learn JavaScript](#3-learn-javascript)
-    - [Resources](#resources-2)
-  - [4. Learn about mapping libraries and other required utilities](#4-learn-about-mapping-libraries-and-other-required-utilities)
-    - [Resources:](#resources-3)
+- [2. Comments](#2-comments)
+- [3. Data Types and Variables](#3-data-types-and-variables)
+  - [Data Types](#data-types)
+  - [Varaibles](#varaibles)
+- [4. Learn about mapping libraries and other required utilities](#4-learn-about-mapping-libraries-and-other-required-utilities)
+    - [Resources:](#resources-1)
   - [5.Now Move to working with Map servers](#5now-move-to-working-with-map-servers)
       - [Examples](#examples)
   - [6. Learn about databases and backend](#6-learn-about-databases-and-backend)
-    - [Resources:](#resources-4)
+    - [Resources:](#resources-2)
   - [7. Learn a frontend frameworks (Additional)](#7-learn-a-frontend-frameworks-additional)
-    - [Resources:](#resources-5)
+    - [Resources:](#resources-3)
 - [Final Notes](#final-notes)
 - [Errata](#errata)
       - [Acknowledgements](#acknowledgements)
@@ -23,10 +23,9 @@
 
 ## Introduction
 This is the comprehensive path, buddy
-### What is WebGIS?
-Have a look at the definition of [WebGIS Section 1 – A Quick Introduction to GIS and WebGIS](https://www.gislounge.com/section-1-a-quick-introduction-to-gis-and-webgis/)
+### What is Javascript and its Applications?
 
-## Web GIS Learning Guide
+## 1. Tools and Running JS
 
 <img src= "https://github.com/OkomoJacob/myLibrary/blob/main/GISDev%20RoadMap/roadmap.png">
 
@@ -37,27 +36,33 @@ The basic GIS Operationis Key
 1. [Building a Python Plugin (QGIS3)](https://www.qgistutorials.com/en/docs/3/building_a_python_plugin.html)
 2. [Chapter 1 Introduction to GIS](https://mgimond.github.io/Spatial/introGIS.html)
 
-### 2. Then Pickup HTML and CSS
-Recommendation:  Learn the important concepts of HTML and CSS in a week or two.
-
-#### Resources
-1. [W3Schools HTML](https://www.w3schools.com/html/default.asp)
-2. [W3Schools CSS](https://www.w3schools.com/html/default.asp)
-3. 
+## 2. Comments
+// inline comments
+/*Multiline Comments*/ 
    
-### 3. Learn JavaScript
-- JavaScript helps to add the interactivity to your HTML and CSS pages. It is mainly used for client-side purposes. Can as well be used for server-side e.g [NodeJS]() and Mobile Apps e.g [React Native]()
+## 3. Data Types and Variables
+ ### Data Types
+- Anything meaningful to the computer
+- JS has 7 (Seven) Data types <br>
+1. [Undefined]() Hasn't been defined yet
+2. [Null]()
+3. [Boolean]() True or Flase
+4. [String]()
+5. [Symbol]() An immutable primiive value that is unique
+6. [Number]()
+7. Object
+- 
+### Varaibles
+Assigns a memory in store for the comp
 
-- But for the web-GIS developer roadmap, you just need to learn it’s application on **web development** only. That means **client-side and server-side only**
+There are three (3) ways of assiging variables in JS. ie. Using `var`, `let` and `const`
+```jsx
+var myName = "Okomo" // Used throughout the program i.e globally
+let myName = "Okomo" // Only used within the scope you've declared them
+const myName = "Okomo" // Should (cannot) be changed, or it will throw an error
+```
 
-Recommendation:  Learn fundamentals of _JavaScript for another 2 weeks or more._
-
-#### Resources
-1. [W3Schools JS](https://www.w3schools.com/js/default.asp)
-2. [22 JAVASCRIPT PROJECTS YOU CAN BUILD TO PERFECT YOUR CODING SKILLS](https://mikkegoes.com/javascript-projects-for-beginners/)
-3. [FreeCodeCamp Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg)
-
-### 4. Learn about mapping libraries and other required utilities
+## 4. Learn about mapping libraries and other required utilities
 
 Use Mapping libaraies to bulid the web-GIS portal data visualization interface. Here are the lists of some most commonly used mapping libraries;
 
