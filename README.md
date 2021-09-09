@@ -8,7 +8,7 @@
 - [3. Data Types and Variables](#3-data-types-and-variables)
   - [Data Types](#data-types)
   - [Varaibles](#varaibles)
-- [4. Learn about mapping libraries and other required utilities](#4-learn-about-mapping-libraries-and-other-required-utilities)
+- [4. Operators](#4-operators)
     - [Resources:](#resources-1)
   - [5.Now Move to working with Map servers](#5now-move-to-working-with-map-servers)
       - [Examples](#examples)
@@ -61,9 +61,21 @@ var myName = "Okomo" // Used throughout the program i.e globally
 let myName = "Okomo" // Only used within the scope you've declared them
 const myName = "Okomo" // Should (cannot) be changed, or it will throw an error
 ```
-
-## 4. Learn about mapping libraries and other required utilities
-
+- Declaring <br>
+- Assigning variables <br>
+- Initializing Varibales using Assignment operator<br>
+## 4. Operators
+1. Assignment =, ==, ===
+2. Addition, +
+3. Subtraction (-)
+4. Multiplying (*)
+5. Divide (/)
+6. Incrementing Numbers (+)
+   
+```jsx
+var sumMultSub = 10 + 20*20-20;
+console.log(sumMultSub); //ans
+```
 Use Mapping libaraies to bulid the web-GIS portal data visualization interface. Here are the lists of some most commonly used mapping libraries;
 
 - [LeafletJs](https://leafletjs.com/): It is the open-source, lightweight javascript library
