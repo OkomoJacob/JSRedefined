@@ -13,7 +13,7 @@
 - [Related Articles](#related-articles)
 
 ## Introduction
-This is the comprehensive path, buddy
+
 ### What is Javascript and its Applications?
 
 ## 1. Tools and Running JS
