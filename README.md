@@ -1,19 +1,15 @@
 ### Contents:
 - [Introduction](#introduction)
   - [What is Javascript and its Applications?](#what-is-javascript-and-its-applications)
-- [1. Tools and Running JS](#1-tools-and-running-js)
-  - [1. Start with GIS and a GIS Software](#1-start-with-gis-and-a-gis-software)
     - [Resources](#resources)
 - [2. Comments](#2-comments)
 - [3. Data Types and Variables](#3-data-types-and-variables)
   - [Data Types](#data-types)
   - [Varaibles](#varaibles)
 - [4. Operators](#4-operators)
-      - [Acknowledgements](#acknowledgements)
-- [Related Articles](#related-articles)
 
 ## Introduction
-
+- Will update this later
 ### What is Javascript and its Applications?
 
 #### Resources
