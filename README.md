@@ -16,13 +16,6 @@
 
 ### What is Javascript and its Applications?
 
-## 1. Tools and Running JS
-
-<img src= "https://github.com/OkomoJacob/myLibrary/blob/main/GISDev%20RoadMap/roadmap.png">
-
-### 1. Start with GIS and a GIS Software
-The basic GIS Operationis Key
-
 #### Resources
 1. [Building a Python Plugin (QGIS3)](https://www.qgistutorials.com/en/docs/3/building_a_python_plugin.html)
 2. [Chapter 1 Introduction to GIS](https://mgimond.github.io/Spatial/introGIS.html)
@@ -77,23 +70,3 @@ myNum ++; //myNum = myNum + 1;
 // Decrementing
 myNum --;
 ```
-ured Query Language (SQL)
-   - About the API (GET, POST, PUT, DELETE) request
-   - At least develop one Create, Read, Update, Delete (CRUD) project
-   - About the Object Relational Mapping (ORM)
-   - Working with PostGIS and it’s extensions such as PG Routing
-
-- Using the backend, now you can connect the mapping server and create the interactive web-GIS portals
-
-_GeoJSON serializer, GeoSpatial data visualization portal using PostGIS database_ etc are some of the beginner level backend projects on web-GIS. 
-
-**Recommendation**: Learn about Django. You should spend at least 3 weeks learning the databases(PostGIS/PostgreSQL combo recommended) , spatial SQL and backend technology.
-
-##### Acknowledgements
-
-1. [Tek Kshetri]() is the research Associate at Geoinformatics Center, Asian Institute of Technology, Thailand. He is mainly working on web-GIS technology and spatial data analysis.
-2. [Emmanuel Jolaiya](https://linktr.ee/JolaiyaEmmanuel) is a GIS developer with a really really really special interest in geospatial community development.
-3. 
-## Related Articles
-1. [6 Open Source Powered Projects to Enrich Your GIS Programming Skills,GISLounge](https://www.gislounge.com/6-open-source-powered-projects-to-enrich-your-gis-programming-skills/)
-2.
