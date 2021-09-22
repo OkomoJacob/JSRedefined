@@ -4,7 +4,7 @@ Run away from hell! Do you this.
    - Learn the Basics first. Then build sth small(Problem solving) from each stage e.g:
     * Build a Number guesser using 
   ```jsx 
-     if else
+     if else statements
   ```
 2. After that video build a completely new project from it.
 - Spend much time a day, and smash sth cool! Power lifting.
