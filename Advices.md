@@ -5,7 +5,7 @@ Run away from hell! Do you this.
     * Build a Number guesser using 
   ```jsx 
      if else
-     ```
+  ```
 2. After that video build a completely new project from it.
 - Spend much time a day, and smash sth cool! Power lifting.
    - Get stuck, run into errors and seek help at stackOverfolw etc.
